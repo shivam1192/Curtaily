@@ -1,10 +1,14 @@
 import React from 'react';
+import AuthContextProvider from './context/AuthContext';
+import BaseRoute from './BaseRoute';
 
 const App = () => {
     return ( 
-        <div>
-            Hello
-        </div>
+        <>
+        <AuthContextProvider>
+            <BaseRoute/>
+        </AuthContextProvider>
+        </>
      );
 }
  
