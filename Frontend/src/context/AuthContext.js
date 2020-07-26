@@ -5,7 +5,7 @@ export const AuthContext = createContext()
 
 const AuthContextProvider = (props) => {
     const [Auth,setAuth] = useState()
-    
+    console.log(Auth);
     useEffect(()=>{
         fire.auth().onAuthStateChanged((user)=>{
             if(user){

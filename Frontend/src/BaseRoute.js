@@ -9,12 +9,9 @@ const BaseRoute = () => {
     return ( 
         <>
         <BrowserRouter>
-            <Route path='/'>
-            {Auth?
-                <MainDashboard/>
-            :
-                <MainHome/>
-            }
+            <Route exact path='/' component={MainHome}/>
+            <Route exact path="/dashboard">
+                {Auth?<><MainDashboard/></>:<><Redirect to="/"/></>}
             </Route>
         </BrowserRouter>
         </>

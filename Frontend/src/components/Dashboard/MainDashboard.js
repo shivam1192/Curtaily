@@ -1,12 +1,12 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import fire from '../../config/Firebase';
+import React from 'react'
+import Navbar from '../Navbar'
+
 
 const MainDasboard = () => {
     return ( 
         <>
+        <Navbar/>
         Welcome to MainDasboard
-        <Button onClick={()=>fire.auth().signOut()}>Logout</Button>
         </>
      );
 }

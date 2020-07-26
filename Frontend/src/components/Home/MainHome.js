@@ -5,6 +5,7 @@ const MainHome = () => {
     return ( 
         <>
             <Navbar/>
+            welocome to home
         </>
      );
 }
