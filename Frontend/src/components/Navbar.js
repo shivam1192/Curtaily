@@ -7,7 +7,6 @@ import { Route, Redirect,Link } from 'react-router-dom';
 import Register from './Register';
 
 const Navbar = () => {
-    const [show2, setShow2] = useState(false);
     const {Auth} = useContext(AuthContext)
   
     return ( 
