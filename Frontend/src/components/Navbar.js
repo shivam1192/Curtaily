@@ -5,6 +5,7 @@ import fire from '../config/Firebase';
 import { AuthContext } from '../context/AuthContext';
 import { Route, Redirect,Link } from 'react-router-dom';
 import Register from './Register';
+import ConvertUrl from './ConvertUrl';
 
 const Navbar = () => {
     const {Auth} = useContext(AuthContext)
@@ -19,6 +20,7 @@ const Navbar = () => {
             <Link to='/'>
             <Button>Home</Button>
             </Link>
+            <ConvertUrl/>
             </>:<>
             <Login/>
             <Register/>
