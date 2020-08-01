@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import fire from '../config/Firebase'
-import { Button, Modal } from 'react-bootstrap';
+import { Button, Modal, Form } from 'react-bootstrap';
 
 const Register = () => {
     const [show, setShow] = useState(false);
@@ -16,26 +16,31 @@ const Register = () => {
     
     return ( 
         <>
-            <Button variant="primary" onClick={() => setShow(true)}>Register</Button>
+            <Button variant="light" onClick={() => setShow(true)}>Register</Button>
             <Modal show={show} onHide={() => setShow(false)}>
             <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Register</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <form onSubmit={register}>
-                    <input type="email" name="email"/>
-                    <input type="password" name="password"/>
-                    <button type="submit">Click</button>
-                </form>
+            <Form onSubmit={register}>
+            <Form.Group controlId="formBasicEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" name="email"/>
+                <Form.Text className="text-muted">
+                We'll never share your email with anyone else.
+                </Form.Text>
+            </Form.Group>
+
+            <Form.Group controlId="formBasicPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control type="password" name="password" />
+            </Form.Group>
+           
+            <Button variant="primary" type="submit">
+                Submit
+            </Button>
+            </Form>
             </Modal.Body>
-            <Modal.Footer>
-            <Button variant="secondary" onClick={() => setShow(false)}>
-                Close
-            </Button>
-            <Button variant="primary" onClick={() => setShow(false)}>
-                Save Changes
-            </Button>
-            </Modal.Footer>
         </Modal>
         </>
      );

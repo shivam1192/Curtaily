@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Navbar'
+import NavBar from '../Navbar'
 import fire from '../../config/Firebase'
 import { transfer } from '../../App'
+import { Card } from 'react-bootstrap'
 
 
 const MainDasboard = () => {
@@ -23,17 +24,24 @@ const MainDasboard = () => {
 
     return ( 
         <>
-         <Navbar/>
-        Welcome to MainDasboard<br/>
-        {lurl&&turl?<>
+         <NavBar/>
+        {lurl&&turl?<div style={{marginTop:'70px'}}>
         {lurl.map((url, index)=>{
             return(
-                <ul>
-                    <li>{url} - <a href={window.location.href.slice(0,21)+"/"+turl[index]} target="_blank">{window.location.href.slice(0,21)}/{turl[index]}</a></li>
-                </ul>
+                <>
+                <Card>
+                    <Card.Body>
+                     <Card.Title>{index+1}.</Card.Title>
+                        <Card.Text>
+                        <a href={window.location.href.slice(0,21)+"/"+turl[index]} target="_blank">{window.location.href.slice(0,21)}/{turl[index]}</a>
+                        </Card.Text>
+                     <Card.Text>{url}</Card.Text>
+                    </Card.Body>
+                    </Card>
+                </>
             )
         })}
-        </>:<>Loading...</>}
+        </div>:<div style={{marginTop:'70px'}}>Loading...</div>}
         </>
      );
 }
