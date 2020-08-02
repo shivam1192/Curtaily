@@ -21,10 +21,10 @@ Curtaily uses a number of open source projects to work properly:
 And of course Curtail itself is open source.
 
 ## Screenshots
-![alt text](blob:https://web.whatsapp.com/ab619de3-b472-4ed7-aad3-1a243afde58f)
-![alt text](blob:https://web.whatsapp.com/e8dc72df-01c6-46d0-8666-4d2aa22b39d1)
-![alt text](blob:https://web.whatsapp.com/4bd36ad3-920f-4993-81f4-de7f4e1f0baa)
-![alt text](blob:https://web.whatsapp.com/c3bd5ea5-2b4e-4d4a-a481-26946c2564bf)
+![alt text](https://serving.photos.photobox.com/88189049555c2b75c3e29498b536056263d60e1f0afe5a1be7396585f012bd7b19885c48.jpg)
+![alt text](https://serving.photos.photobox.com/779806413baa89fa211dec9fac0238e7cf94c44edfacf12d02eefc8317fb5d15e5a430a2.jpg)
+![alt text](https://serving.photos.photobox.com/543507505a7c2cb101ef2ff7935755c77d0c118d4e87848681608f3f71e65a8d7f1ecd85.jpg)
+![alt text](https://serving.photos.photobox.com/34443590b7cbbf1f6baf336e6cfbefb213870e04fce8083532754160bfa017becab220a3.jpg)
 
 
 Check Out My Linkedin : [Shivam's linkedin](https://www.linkedin.com/in/shivam-agrawal-a4a414181/)
