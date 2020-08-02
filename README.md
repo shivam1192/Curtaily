@@ -6,8 +6,9 @@ Google had shut downed its URL shortener service, goo.gl on 30 March 2019, and A
 
 Curtaily is a URL Shortner on Ethereum Blockchain that stores the curtailed link forever. You have to pay a minimal gas fee for every curtailed link. Being a Decentralized application means that this web app does not require any centralized database to function. It only interacts with the smart contract deployed on the blockchain. You have to download a chrome extension Metamask for making a transaction of gas fee and storing it in Blockchain. Every authenticated user can curtail their link by paying a nominal gas fee, the smart contract then returns a hash which can be easily mapped with that link. There is also a dashboard where user can see all converted link.
 
-![Curtaly](https://www.youtube.com/watch?v=6RdDEZfF4Lc&feature=youtu.be)
-![alt text](https://ibb.co/wrkbpKF)
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://www.youtube.com/watch?v=6RdDEZfF4Lc&feature=youtu.be)
+
+![alt text](https://www.photobox.co.uk/my/photo/full?photo_id=503141403573)
 
 ### Tech
 
@@ -18,8 +19,7 @@ Curtaily uses a number of open source projects to work properly:
 * Twitter Bootstrap - great UI boilerplate for modern web apps
 * Firebase authentication service
 
-And of course Curtail itself is open source with a [public repository][https://github.com/shivam1192/Curtaily]
-on GitHub.
+And of course Curtail itself is open source.
 
 Check Out My Linkedin : [linkedin](https://www.linkedin.com/in/shivam-agrawal-a4a414181/)
 
