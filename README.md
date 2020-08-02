@@ -6,9 +6,8 @@ Google had shut downed its URL shortener service, goo.gl on 30 March 2019, and A
 
 Curtaily is a URL Shortner on Ethereum Blockchain that stores the curtailed link forever. You have to pay a minimal gas fee for every curtailed link. Being a Decentralized application means that this web app does not require any centralized database to function. It only interacts with the smart contract deployed on the blockchain. You have to download a chrome extension Metamask for making a transaction of gas fee and storing it in Blockchain. Every authenticated user can curtail their link by paying a nominal gas fee, the smart contract then returns a hash which can be easily mapped with that link. There is also a dashboard where user can see all converted link.
 
-[![Watch the video](https://www.youtube.com/watch?v=6RdDEZfF4Lc&feature=youtu.be)
+[![Watch the video](https://serving.photos.photobox.com/210233271d19ebaf3e451d22139af8d9b6ba2ce7b7984d7a3a0ea2e4c4191ea9f64dbe7b.jpg)](https://www.youtube.com/watch?v=6RdDEZfF4Lc&feature=youtu.be)
 
-![alt text](https://serving.photos.photobox.com/210233271d19ebaf3e451d22139af8d9b6ba2ce7b7984d7a3a0ea2e4c4191ea9f64dbe7b.jpg)
 
 ### Tech
 
@@ -20,6 +19,13 @@ Curtaily uses a number of open source projects to work properly:
 * Firebase authentication service
 
 And of course Curtail itself is open source.
+
+## Screenshots
+![alt text](blob:https://web.whatsapp.com/ab619de3-b472-4ed7-aad3-1a243afde58f)
+![alt text](blob:https://web.whatsapp.com/e8dc72df-01c6-46d0-8666-4d2aa22b39d1)
+![alt text](blob:https://web.whatsapp.com/4bd36ad3-920f-4993-81f4-de7f4e1f0baa)
+![alt text](blob:https://web.whatsapp.com/c3bd5ea5-2b4e-4d4a-a481-26946c2564bf)
+
 
 Check Out My Linkedin : [Shivam's linkedin](https://www.linkedin.com/in/shivam-agrawal-a4a414181/)
 
