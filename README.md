@@ -26,6 +26,9 @@ And of course Curtaily itself is open source.
 ![alt text](https://serving.photos.photobox.com/543507505a7c2cb101ef2ff7935755c77d0c118d4e87848681608f3f71e65a8d7f1ecd85.jpg)
 ![alt text](https://serving.photos.photobox.com/34443590b7cbbf1f6baf336e6cfbefb213870e04fce8083532754160bfa017becab220a3.jpg)
 
+About Me: I am pursuing 5 year dual degree course (B.TECH + M.TECH) in the field of Information Technology from the Indian Institute of Information Technology and Management Gwalior. Being a technology enthusiast, I love to explore new technologies and leverage them to solve real-life problems.
+This eagerness has led me to explore various field like WebApp Development and Blockchain.Continous particiation in events and hackathons has significantly helped in the polishing of these skills.
 
+Want to know about my work just visit my portfolio and GitHub.
 Check Out My Linkedin : [Shivam's linkedin](https://www.linkedin.com/in/shivam-agrawal-a4a414181/)
 
