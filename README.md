@@ -18,7 +18,7 @@ Curtaily uses a number of open source projects to work properly:
 * Twitter Bootstrap - great UI boilerplate for modern web apps
 * Firebase authentication service
 
-And of course Curtail itself is open source.
+And of course Curtaily itself is open source.
 
 ## Screenshots
 ![alt text](https://serving.photos.photobox.com/88189049555c2b75c3e29498b536056263d60e1f0afe5a1be7396585f012bd7b19885c48.jpg)
