@@ -28,7 +28,7 @@ contract curtaily {
         if(lurl_exist_index == 0){
             c_lurl[user_exist_index-1].push(_lurl);
             lurl_exist_index = c_lurl[user_exist_index-1].length;
-              uint number = 100*user_exist_index + 10*lurl_exist_index + 1;
+              uint number = 100 * user_exist_index + 10 * lurl_exist_index + 1;
                 bytes32 turl_code = keccak256(abi.encodePacked(number));
                 bytes3 turl_url = bytes3(turl_code);
                 c_turl[user_exist_index-1][lurl_exist_index-1] = turl_url;
@@ -38,11 +38,11 @@ contract curtaily {
     function Correspond_lurl(bytes3 _turl) public view returns(string memory){
         uint lurl_exist_index = 0;
         uint user_exist_index = 0;
-        for(uint i = 0 ;i < users.length ; i++){
-            for(uint j = 0;j<c_lurl[i].length;j++){
-                    if(_turl == c_turl[i][j]){
-                        lurl_exist_index = j + 1;
-                        user_exist_index = i + 1;
+        for(uint j = 0 ;j < users.length ; j++){
+            for(uint i = 0;i < c_lurl[j].length;i++){
+                    if(_turl == c_turl[j][i]){
+                        lurl_exist_index = i + 1;
+                        user_exist_index = j + 1;
                     }
             }
         }
