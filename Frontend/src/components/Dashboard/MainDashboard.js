@@ -31,7 +31,7 @@ const MainDasboard = () => {
                 <>
                 <Card>
                     <Card.Body>
-                     <Card.Title>{index+1}.</Card.Title>
+                     <Card.Title>{index + 1}.</Card.Title>
                         <Card.Text>
                         <a href={window.location.href.slice(0,21)+"/"+turl[index]} target="_blank">{window.location.href.slice(0,21)}/{turl[index]}</a>
                         </Card.Text>
@@ -41,7 +41,7 @@ const MainDasboard = () => {
                 </>
             )
         })}
-        </div>:<div style={{marginTop:'70px'}}>Loading...</div>}
+        </div>:<div style={{marginTop:'75px'}>Loading.....div>}
         </>
      );
 }
